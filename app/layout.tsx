@@ -38,6 +38,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/products">Products</Link>
             {" | "}
             <Link href="/employee-search">Search Employee</Link>
+            {" | "}
+            <Link href="/employee-add">Add Employee</Link>
           </nav>
         </header>
         {children}
